@@ -176,6 +176,46 @@
     height: 490px;
     margin-left: 150px;
 }
+.popular{
+    width: 100%;
+    height: 520px;
+    /* background-color:green; */
+}
+.popular h3{
+    font-family: 'popins',sans-serif;
+    color: rgba(242, 190, 34, 1);
+    text-align: center;
+}
+.popular h2{
+    font-family: 'Popins',sans-serif;
+    text-align: center;
+}
+.cards{
+    display: flex;
+    margin-left: 50px;
+    width: 90%;
+    height:350px;
+    /* background-color: aqua; */
+    justify-content: space-around;
+}
+.card1{
+    background-color: blueviolet;
+    margin-top: 15px;
+    margin-left: 15px;
+    width: 250px;
+    height: 250px;
+    background-image: url('./d05c031639504f3a781b84f1a32907d478fae892.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: cover;
+}
+.desc{
+    margin-top: 190px;
+    width: 100%;
+    height: 60px;
+    background-color: rgba(255, 255, 255, 0.4);
+}
 @media (max-width:450px){
     .menu{
         display: none;

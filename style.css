@@ -116,6 +116,66 @@
     color:white;
     border:none;
 }
+.programs{
+   display: flex; 
+    width: 100%;
+    height: 800px;
+    /* background-color: teal; */
+}
+.price{
+    margin-top: 15px;
+    margin-left: 15px;
+    width: 500px;
+    height: 650px;
+    /* background-color: blueviolet; */
+
+}
+.price h5{
+    color: rgba(242, 190, 34, 1);
+    font-family: 'Popins',sans-serif;
+    margin-top: 15px;
+    font-size: 20px;
+    text-align: center;
+}
+.price h2{
+    font-family: 'Popins',sans-serif;
+    margin-top: -15px;
+    text-align: center;
+}
+.price p{
+    margin-left: 15px;
+}
+.off1{
+    width:450px;
+    height: 120px;
+    background-color: lightgray;
+    display: flex;
+    margin-left: 25px;
+}
+.off1 h3{
+    margin-top: -2px;
+    margin-left: 10px;
+}
+.off1 p{
+    margin-top: 45px;
+    margin-left: -100px;
+}
+.image1{
+    display: flex;
+}
+.stom{
+    border: none;
+    color:white;
+    background-color: rgba(26, 62, 62, 1);
+    height: 35px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.places{
+    margin-top: 100px;
+    height: 490px;
+    margin-left: 150px;
+}
 @media (max-width:450px){
     .menu{
         display: none;
@@ -158,5 +218,8 @@
 .travel img{
     
     margin-left: 190px;
+}
+.places{
+    display: none;
 }
 }

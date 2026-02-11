@@ -262,4 +262,15 @@
 .places{
     display: none;
 }
+.popular{
+    width: 100%;
+    flex-direction: column;
+}
+.cards{
+
+    flex-direction: column;
+}
+.card1{
+    margin-bottom: 15px;
+}
 }
